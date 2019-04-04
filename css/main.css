@@ -1,0 +1,1857 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*-------------------------------MOBILE-----------------------------------*/
+
+@media screen and (max-width: 500px){
+
+
+nav{
+    background-color: white;
+}
+
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2% 0% 2% 5%;
+    list-style-type: none;
+}
+
+nav ul li{
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+.nav-ts{
+    color: #f49ac1;
+}
+
+.nav-ts:hover{
+    text-decoration: underline;
+    color: #f49ac1;
+}
+
+.header{
+    margin-top: 1%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+
+}
+
+header{
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.left{
+    color: black;
+    font-size: 70px;
+    align-self: center;
+}
+
+.right{
+    margin-left: 2%;
+    margin-bottom: 3%;
+    align-self: center;
+    color: #656565;
+    font-weight: bold;
+}
+
+.right p{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#tailspin-ad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 90%;
+    background-color: #f49ac1;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tailspin-ad img{
+    width: 30%;
+}
+
+#tailspin-ad h3, #tailspin-ad h4{
+    margin: 0;
+}
+
+.tailspin-ad-left{
+    align-self: center;
+}
+
+#tailspin-ad h3{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#tailspin-ad h4{
+    color: #656565;
+}
+
+#home-caption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 2%;
+    width: 90%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+/*-----------------HOME-------------------*/
+
+#container{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.preview-box-inner img{
+    width: 100%;
+}
+
+.preview-box-inner p{
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+.top-2 h3, .bottom-2 h3{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    color: white;
+    width: 98%;
+    padding-left: 2%;
+    font-size: 25px;
+}
+
+.preview-box-left{
+    padding-right: 5%;
+}
+
+/*-----------------HOME-------------------*/
+
+
+/*-----------------BACKGROUND-------------------*/
+
+
+#container-background{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#container-background h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1% 0 1% 0;
+    font-size: 30px;
+}
+
+#container-background p{
+    font-size: 20px;
+}
+
+/*-----------------BACKGROUND-------------------*/
+
+/*-----------------IN-DEPTH-------------------*/
+
+#container-in-depth{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#container-in-depth h2{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 50px;
+}
+
+#container-in-depth h3{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+}
+
+#container-in-depth h4{
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+#container-in-depth p{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+/*-----------------IN-DEPTH-------------------*/
+/*-----------------DATA-------------------*/
+
+/*-----------begin code from w3schools---------*/
+
+button{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 3%;
+    width: 100%;
+}
+
+.tablink {
+  background-color: black;
+  color: white;
+  border: none;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 10px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+/*#About {background-color: white;}*/
+
+#container-data p{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;   
+}
+
+/*-----------end code from w3schools---------*/
+
+#container-data{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-data{
+    margin: 3% 0 7% 0;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+.top-data img{
+    display: none;
+}
+
+.tab-data{
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: .5%;
+    margin: 2% 0 2% 0;
+}
+
+#container-data h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.data-q img{
+    width: 100%;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.data-q p{
+    padding: 2%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/*-----------------DATA-------------------*/
+/*----------------case studies-------------*/
+
+#container-cs{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-cs{
+    margin: 5% 0 5% 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.top-cs img{
+    display: none;
+}
+
+
+.tab-cs:hover{
+    background-color: lightgray;
+}
+
+.tab-cs{
+    margin: 2% 0 2% 0;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#lg-top img{
+    width: 100%;
+}
+
+#lg-top{
+    padding: 3% 0 3% 0;
+}
+
+.lg-portrait{
+    display: none;
+}
+
+#lg-top p{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 2%; 
+    width: 100%;
+    align-self: center;
+}
+
+#container-cs h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+.cs-q img{
+    width: 100%;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.cs-q p{
+    padding: 1%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/*---------------------case studies---------------*/
+/*----------------tailspin-------------*/
+
+.pink{
+    color: #f49ac1;
+}
+
+#container-tailspin{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#display-header{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    background-color: #f49ac1;
+    border: 1px #f49ac1 solid;
+    border-radius: 10px;
+    margin: 3% 0 3% 0;
+}
+
+#display-header h4{
+    padding: 2%;
+    margin: 0;
+}
+
+#container-tailspin img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 3px solid #f49ac1;
+    border-radius: 10px;
+}
+
+/*----------------tailspin-------------*/
+
+/*----------------about-------------*/
+
+#container-about{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+#container-about h4{
+    font-size: 20px; 
+}
+
+#about-top img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#about-right h4, #references h4, #acknowledgements h4{
+    border-bottom: 2px black solid;
+    padding: 1%;
+}
+
+#connect{
+    display: flex;
+    justify-content: space-around;
+}
+
+#connect h3{
+    font-size: 16px;
+    text-align: center;
+}
+
+#social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons img{
+    width: 15%;
+    padding: 1% 1% 1% 1%;
+}
+
+#social-icons img:hover{
+    opacity: 0.5;
+}
+
+
+/*----------------about-------------*/
+
+
+
+
+footer{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding: 2% 0 2% 0;
+}
+
+.left-footer{
+    align-self: center;
+    width: 90%;
+    padding: 5%;
+    font-size: 16px;
+    margin: 0;
+}
+
+.right-footer p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.right-footer{
+    align-self: center;
+    padding: 5%;
+}
+
+}
+
+/*--------------------------------TABLET-------------------------------------*/
+
+ @media screen and (min-width: 501px) and (max-width: 949px){
+
+
+nav{
+    background-color: white;
+}
+
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2% 0% 2% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li{
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+.nav-ts{
+    color: #f49ac1;
+}
+
+.nav-ts:hover{
+    text-decoration: underline;
+    color: #f49ac1;
+}
+
+.header{
+    margin-top: 1%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 4px solid black;
+}
+
+header{
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+
+.left{
+    color: black;
+    font-size: 70px;
+}
+
+.right{
+    color: #656565;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+.right p{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#tailspin-ad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 80%;
+    background-color: #f49ac1;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tailspin-ad img{
+    width: 12%;
+}
+
+#tailspin-ad h3, #tailspin-ad h4{
+    margin: 0;
+}
+
+.tailspin-ad-left{
+    align-self: center;
+}
+
+#tailspin-ad h3{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#tailspin-ad h4{
+    color: #656565;
+}
+
+#home-caption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: .5%;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*-----------------------HOME-----------------------*/
+
+#container{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.preview-box-inner img{
+    width: 100%;
+}
+
+.preview-box-inner p{
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+.top-2, .bottom-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-2 h3, .bottom-2 h3{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    color: white;
+    width: 98%;
+    padding-left: 2%;
+    font-size: 25px;
+}
+
+.preview-box-left{
+    padding-right: 5%;
+}
+
+/*-----------------------HOME-----------------------*/
+/*-----------------------BACKGROUND-----------------------*/
+
+
+#container-background{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#container-background h3{
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 1% 0% 1% 2%;
+    font-size: 25px;
+}
+
+#container-background p{
+    font-size: 18px;
+}
+
+/*-----------------------BACKGROUND-----------------------*/
+
+/*-----------------IN-DEPTH-------------------*/
+
+#container-in-depth{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#container-in-depth h2{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 50px;
+}
+
+#container-in-depth h3{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+#container-in-depth h4{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#container-in-depth p{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+/*-----------------IN-DEPTH-------------------*/
+/*-----------------DATA-------------------*/
+
+/*-----------begin code from w3schools---------*/
+
+button{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 3%;
+}
+
+.tablink {
+  background-color: black;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 12px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;}
+
+#container-data p{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;   
+}
+
+/*-----------end code from w3schools---------*/
+
+#container-data{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-data{
+    margin: 3% 0 7% 0;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+.top-data img{
+    display: none;
+}
+
+#data-tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-data{
+    width: 30%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: .5%;
+}
+
+#container-data h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.data-q img{
+    width: 100%;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.data-q p{
+    padding: 2%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+}
+
+
+
+/*-----------------DATA-------------------*/
+/*----------------case studies-------------*/
+
+#container-cs{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-cs{
+    margin: 5% 0 5% 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.top-cs img{
+    display: none;
+}
+
+#cs-tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-cs:hover{
+    background-color: lightgray;
+}
+
+.tab-cs{
+    width: 20%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: .5%;
+}
+
+#lg-top{
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0 3% 0;
+}
+
+.lg-portrait{
+    display: none;
+}
+
+#lg-top p{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 2%; 
+    width: 45%;
+    align-self: center;
+}
+
+#container-cs h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+.cs-q img{
+    width: 100%;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.cs-q p{
+    padding: 2%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/*---------------------case studies---------------*/
+/*----------------tailspin-------------*/
+
+.pink{
+    color: #f49ac1;
+}
+
+#container-tailspin{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#display-header{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    background-color: #f49ac1;
+    border: 1px #f49ac1 solid;
+    border-radius: 10px;
+    margin: 3% 0 3% 0;
+}
+
+#display-header h4{
+    padding: 2%;
+    margin: 0;
+}
+
+#container-tailspin img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 3px solid #f49ac1;
+    border-radius: 10px;
+}
+
+/*----------------tailspin-------------*/
+/*----------------about-------------*/
+
+#container-about{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+#container-about h4{
+    font-size: 20px; 
+}
+
+#about-top img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+#about-right h4, #references h4, #acknowledgements h4{
+    border-bottom: 2px black solid;
+    padding: 1%;
+}
+
+#connect{
+    display: flex;
+    justify-content: space-around;
+}
+
+#connect h3{
+    font-size: 12px;
+    text-align: center;
+}
+
+#line{
+    align-self: center;
+    margin: 1%;
+    height: 2px;
+    width: 30%;
+    background-color: black;
+}
+
+#social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons img{
+    width: 10%;
+    padding: 1% 1% 1% 1%;
+}
+
+#social-icons img:hover{
+    opacity: 0.5;
+}
+
+
+/*----------------about-------------*/
+
+
+footer{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0 2% 0;
+}
+
+.left-footer{
+    align-self: center;
+    width: 40%;
+    font-size: 16px;
+    margin: 0;
+}
+
+.right-footer p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.right-footer{
+    align-self: center;
+}
+
+
+
+}
+
+
+/*--------------------------------DESKTOP----------------------------------*/
+
+
+@media screen and (min-width: 950px){
+
+
+nav{
+    background-color: white;
+}
+
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2% 0% 2% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li{
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+.nav-ts{
+    color: #f49ac1;
+}
+
+.nav-ts:hover{
+    text-decoration: underline;
+    color: #f49ac1;
+}
+
+.header{
+    margin-top: 1%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+}
+
+header{
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.left{
+    color: black;
+    font-size: 70px;
+    align-self: center;
+}
+
+.right{
+    align-self: center;
+    color: #656565;
+    font-weight: bold;
+}
+
+.right p{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#tailspin-ad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 80%;
+    background-color: #f49ac1;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tailspin-ad img{
+    width: 12%;
+}
+
+#tailspin-ad h3, #tailspin-ad h4{
+    margin: 0;
+}
+
+.tailspin-ad-left{
+    align-self: center;
+}
+
+#tailspin-ad h3{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#tailspin-ad h4{
+    color: #656565;
+}
+
+#home-caption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: .5%;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*-----------------------HOME-----------------------*/
+
+
+#container{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.preview-box-inner img{
+    width: 100%;
+}
+
+.preview-box-inner p{
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-top: 3%;
+}
+
+.top-2, .bottom-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-2 h3, .bottom-2 h3{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    color: white;
+    width: 98%;
+    padding-left: 2%;
+    font-size: 25px;
+}
+
+.preview-box-left{
+    padding-right: 5%;
+}
+
+/*-----------------------HOME-----------------------*/
+/*-----------------------BACKGROUND-----------------------*/
+
+
+#container-background{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#container-background h3{
+    width: 40%;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: .5% 0% .5% 1%;
+    font-size: 25px;
+}
+
+#container-background p{
+    font-size: 18px;
+}
+
+#container-background h4{
+    font-size: 20px;
+}
+
+#container-background li {
+    font-size: 18px;
+}
+
+/*-----------------------BACKGROUND-----------------------*/
+
+/*-----------------IN-DEPTH-------------------*/
+
+#container-in-depth{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#container-in-depth h2{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#container-in-depth h3{
+    width: 80%;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+#container-in-depth h4{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#container-in-depth p{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+/*-----------------IN-DEPTH-------------------*/
+
+
+
+
+
+
+/*-----------------DATA-------------------*/
+
+/*-----------begin code from w3schools---------*/
+
+button{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 3%;
+}
+
+.tablink {
+  background-color: black;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 18px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;}
+
+#container-data p{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;   
+}
+
+/*-----------end code from w3schools---------*/
+
+#container-data{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#quick-facts-data li{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.top-data{
+    display: flex;
+    margin: 5% 0 5% 0;
+    justify-content: space-around;
+}
+
+.top-data img{
+    width: 100%;
+}
+
+#data-tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-data:hover{
+    background-color: lightgray;
+}
+
+.tab-data{
+    width: 30%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: .5%;
+}
+
+#container-data h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.data-q{
+    display: flex;
+}
+
+.data-q img{
+    width: 60%;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.data-q p{
+    margin-left: 3%;
+    padding: 1%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/*-----------------DATA-------------------*/
+/*----------------case studies-------------*/
+
+#container-cs{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-cs{
+    display: flex;
+    margin: 5% 0 5% 0;
+    justify-content: space-around;
+}
+
+.top-cs img{
+    width: 50%;
+}
+
+#cs-tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-cs:hover{
+    background-color: lightgray;
+}
+
+.tab-cs{
+    width: 20%;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: .5%;
+}
+
+#lg-top{
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0 3% 0;
+}
+
+#lg-top p{
+    font-family: 'Noto Sans', sans-serif;
+    width: 25%;
+    align-self: center;
+}
+
+#container-cs h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.cs-q{
+    display: flex;
+}
+
+.cs-q img{
+    width: 60%;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.cs-q p{
+    margin-left: 3%;
+    padding: 1%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/*---------------------case studies---------------*/
+/*----------------tailspin-------------*/
+
+.pink{
+    color: #f49ac1;
+}
+
+#container-tailspin{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#display-header{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    background-color: #f49ac1;
+    border: 1px #f49ac1 solid;
+    border-radius: 10px;
+    margin: 3% 0 3% 0;
+}
+
+#display-header h4{
+    padding: 2%;
+    margin: 0;
+}
+
+#container-tailspin img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 3px solid #f49ac1;
+    border-radius: 10px;
+}
+
+/*----------------tailspin-------------*/
+/*----------------about-------------*/
+
+#container-about{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+#container-about h4{
+    font-size: 20px; 
+}
+
+#about-top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#about-top img{
+    width: 40%;
+}
+
+#about-right{
+    width: 50%;
+    align-self: center;
+}
+
+#about-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+#acknowledgements{
+    padding-right: 3%;
+}
+
+#references{
+    padding-left: 3%;
+}
+
+#references h4, #acknowledgements h4{
+    border-bottom: 2px black solid;
+    padding: 1%;
+}
+
+#connect{
+    display: flex;
+    justify-content: space-around;
+}
+
+#line{
+    align-self: center;
+    margin: 1%;
+    height: 2px;
+    width: 30%;
+    background-color: black;
+}
+
+#social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons img{
+    width: 5%;
+    padding: 1% 1% 1% 1%;
+}
+
+#social-icons img:hover{
+    opacity: 0.5;
+}
+
+
+/*----------------about-------------*/
+
+
+footer{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0 2% 0;
+}
+
+.left-footer{
+    align-self: center;
+    width: 40%;
+    font-size: 16px;
+    margin: 0;
+}
+
+.right-footer p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.right-footer{
+    align-self: center;
+}
+
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
