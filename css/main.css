@@ -99,6 +99,16 @@ textarea {
 
 /*-------------------------------MOBILE-----------------------------------*/
 
+#tailspin-ad {
+    max-height:500px!important;
+}
+
+#tailspin-ad img {
+    object-fit: contain;
+    width:auto!important;
+}
+
+
 @media screen and (max-width: 500px){
 
 
@@ -180,7 +190,8 @@ header{
 }
 
 #tailspin-ad img{
-    width: 30%;
+    max-height: 300px;
+    max-width:200px;
 }
 
 #tailspin-ad h3, #tailspin-ad h4{
@@ -682,7 +693,8 @@ header{
 }
 
 #tailspin-ad img{
-    width: 12%;
+    max-width: 200px;
+    max-height: 300px;
 }
 
 #tailspin-ad h3, #tailspin-ad h4{
