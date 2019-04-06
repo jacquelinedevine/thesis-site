@@ -415,6 +415,11 @@ button{
     align-self: center;
 }
 
+.tabcontent h3{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
 /*-----------------DATA-------------------*/
 /*----------------case studies-------------*/
 
@@ -501,7 +506,7 @@ button{
 }
 
 #container-tailspin{
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -509,14 +514,11 @@ button{
 #display-header{
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
-    background-color: #f49ac1;
-    border: 1px #f49ac1 solid;
-    border-radius: 10px;
     margin: 3% 0 3% 0;
 }
 
 #display-header h4{
-    padding: 2%;
+    padding: 2% 0 0 0;
     margin: 0;
 }
 
@@ -528,6 +530,12 @@ button{
     margin-top: 5%;
     border: 3px solid #f49ac1;
     border-radius: 10px;
+}
+
+#container-tailspin p{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 1% 0 1% 0;
+
 }
 
 /*----------------tailspin-------------*/
@@ -926,6 +934,10 @@ button{
     align-self: center;
 }
 
+.tabcontent h3{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 
 
 /*-----------------DATA-------------------*/
@@ -1022,15 +1034,12 @@ button{
 
 #display-header{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
-    background-color: #f49ac1;
-    border: 1px #f49ac1 solid;
-    border-radius: 10px;
+    font-size: 25px;
     margin: 3% 0 3% 0;
 }
 
 #display-header h4{
-    padding: 2%;
+    padding: 2% 0 0 0;
     margin: 0;
 }
 
@@ -1042,6 +1051,12 @@ button{
     margin-top: 5%;
     border: 3px solid #f49ac1;
     border-radius: 10px;
+}
+
+#container-tailspin p{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 1% 0 1% 0;
+
 }
 
 /*----------------tailspin-------------*/
@@ -1481,6 +1496,11 @@ button{
     align-self: center;
 }
 
+.tabcontent h3{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
 /*-----------------DATA-------------------*/
 /*----------------case studies-------------*/
 
@@ -1538,6 +1558,7 @@ button{
 
 .cs-q{
     display: flex;
+    justify-content: space-between;
 }
 
 .cs-q img{
@@ -1559,6 +1580,12 @@ button{
     align-self: center;
 }
 
+#quick-facts-cs li, #quick-facts-cs h4{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 3%;
+
+}
+
 /*---------------------case studies---------------*/
 /*----------------tailspin-------------*/
 
@@ -1574,19 +1601,16 @@ button{
 
 #display-header{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
-    background-color: #f49ac1;
-    border: 1px #f49ac1 solid;
-    border-radius: 10px;
+    font-size: 25px;
     margin: 3% 0 3% 0;
 }
 
 #display-header h4{
-    padding: 2%;
+    padding: 2% 0 0 0;
     margin: 0;
 }
 
-#container-tailspin img{
+/*#container-tailspin img{
     width: 60%;
     display: block;
     margin-left: auto;
@@ -1594,6 +1618,25 @@ button{
     margin-top: 5%;
     border: 3px solid #f49ac1;
     border-radius: 10px;
+}*/
+
+#tailspin-post-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tailspin-post-group img{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    border: 5px solid #f49ac1;
+}
+
+#container-tailspin p{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 1% 0 1% 0;
+
 }
 
 /*----------------tailspin-------------*/
