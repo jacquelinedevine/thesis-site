@@ -166,9 +166,18 @@ header{
     font-family: 'Noto Sans', sans-serif;
 }
 
+.home-header{
+    font-size: 22px;
+    align-self: center;
+    color: black;
+    width: 100%;
+    padding-bottom: 5%;
+
+}
+
 .left{
     color: black;
-    font-size: 70px;
+    font-size: 50px;
     align-self: center;
 }
 
@@ -678,6 +687,14 @@ header{
     margin: 0;
 }
 
+.home-header{
+    font-size: 25px;
+    align-self: center;
+    color: black;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
 
 .left{
     color: black;
@@ -1178,6 +1195,7 @@ nav ul li{
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
 }
 
 nav ul li:hover{
@@ -1209,9 +1227,17 @@ header{
 }
 
 .left{
-    color: black;
     font-size: 70px;
+
+}
+
+.home-header{
+    font-size: 29px;
     align-self: center;
+    color: black;
+    width: 60%;
+    padding-bottom: 2%;
+
 }
 
 .right{
@@ -1331,6 +1357,7 @@ header{
     font-size: 25px;
 }
 
+
 #container-background p{
     font-size: 18px;
 }
@@ -1348,7 +1375,7 @@ header{
 /*-----------------IN-DEPTH-------------------*/
 
 #container-in-depth{
-    width: 80%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto; 
 }
@@ -1356,7 +1383,45 @@ header{
 #container-in-depth h2{
     font-family: 'UnifrakturMaguntia', cursive;
     font-size: 50px;
-    text-align: center;
+    text-align: left;
+}
+
+#ID-flex{
+    display: flex;
+}
+
+.ID-left{
+    margin-right: 3%;
+}
+
+h5{
+    font-family: 'EB Garamond', serif;
+
+}
+
+h3{
+    font-size: 30px;
+}
+
+#container-in-depth img{
+    width: 100%;
+}
+
+#interview{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.jd{
+    background-color: #cde1e4;
+    padding: 1%;
+}
+
+.tb{
+    background-color: #e589c9;
+    padding: 1%;
 }
 
 #container-in-depth h3{
@@ -1446,6 +1511,27 @@ button{
 }
 
 .top-data img{
+    width: 100%;
+}
+
+#race-gender{
+    display: flex;
+    align-items: center;
+}
+
+#race-gender img{
+    width: 80%;
+}
+
+.gender{
+    margin-right: 5%;
+}
+
+.race h4{
+
+}
+
+.race img{
     width: 100%;
 }
 
@@ -1671,11 +1757,12 @@ button{
 #about-bottom{
     display: flex;
     justify-content: space-around;
-    padding: 3%;
+    padding: 3% 0 3% 0;
 }
 
 #acknowledgements{
     padding-right: 3%;
+    width: 60%;
 }
 
 #references{
@@ -1689,7 +1776,11 @@ button{
 
 #connect{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#connect h3{
+    font-size: 20px;
 }
 
 #line{
