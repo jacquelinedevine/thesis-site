@@ -312,9 +312,19 @@ header{
     font-size: 50px;
 }
 
+
+#container-in-depth img{
+    width: 100%;
+}
+
+
 #container-in-depth h3{
     font-family: 'EB Garamond', serif;
     font-size: 30px;
+}
+
+#container-in-depth h5{
+    font-family: 'EB Garamond', serif;
 }
 
 #container-in-depth h4{
@@ -828,6 +838,14 @@ header{
     width: 80%;
     margin-right: auto;
     margin-left: auto; 
+}
+
+#container-in-depth img{
+    width: 100%;
+}
+
+#container-in-depth h5{
+    font-family: 'EB Garamond', serif;
 }
 
 #container-in-depth h2{
