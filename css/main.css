@@ -499,23 +499,75 @@ button{
 }
 
 
+p{
+    font-family: 'Noto Sans', sans-serif;  
+}
+
+#fletcher-letter{
+    padding: 2% 0 2% 0;
+}
+
+#fletcher-social img{
+    object-fit: contain;
+}
+
+#fletcher-social{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: space-between;
+    padding-bottom: 3%;
+}
+
+.img-1{
+    margin-right: 5%;
+    width: 50%;
+}
+
+.img-1:hover{
+    opacity: 0.3;
+}
+
+.img-2:hover{
+    opacity: 0.3;
+}
+
+.img-2{
+    width:50%;
+}
+
+
+.cs-q{
+    display: flex;
+}
+
 .cs-q img{
-    width: 100%;
-    padding: 1%;
+    width: 80%;
+    padding: 2%;
     border: 2px solid black;
 }
 
 .cs-q p{
+    margin-left: 3%;
     padding: 1%;
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
-    width: 100%;
+    width: 20%;
     background-color: black;
     color: white;
     border: 1px solid black;
     border-radius: 10px;
     align-self: center;
 }
+
+#quick-facts-cs li, #quick-facts-cs h4{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 3%;
+
+}
+
 
 /*---------------------case studies---------------*/
 /*----------------tailspin-------------*/
@@ -844,6 +896,10 @@ header{
     width: 100%;
 }
 
+#ID-flex{
+    display: flex;
+}
+
 #container-in-depth h5{
     font-family: 'EB Garamond', serif;
 }
@@ -1013,40 +1069,67 @@ button{
     padding: .5%;
 }
 
-#lg-top{
-    display: flex;
-    justify-content: space-around;
-    padding: 3% 0 3% 0;
-}
-
-.lg-portrait{
-    display: none;
-}
-
-#lg-top p{
-    font-family: 'Noto Sans', sans-serif;
-    margin-left: 2%; 
-    width: 45%;
-    align-self: center;
-}
-
 #container-cs h4{
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
 }
 
+p{
+    font-family: 'Noto Sans', sans-serif;  
+}
+
+#fletcher-letter{
+    padding: 2% 0 2% 0;
+}
+
+#fletcher-social img{
+    object-fit: contain;
+}
+
+#fletcher-social{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: space-between;
+    padding-bottom: 3%;
+}
+
+.img-1{
+    margin-right: 5%;
+    width: 50%;
+}
+
+.img-1:hover{
+    opacity: 0.3;
+}
+
+.img-2:hover{
+    opacity: 0.3;
+}
+
+.img-2{
+    width:50%;
+}
+
+
+.cs-q{
+    display: flex;
+}
 
 .cs-q img{
-    width: 100%;
+    width: 80%;
     padding: 2%;
     border: 2px solid black;
 }
 
 .cs-q p{
-    padding: 2%;
+    margin-left: 3%;
+    padding: 1%;
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
-    width: 100%;
+    width: 20%;
     background-color: black;
     color: white;
     border: 1px solid black;
@@ -1054,6 +1137,11 @@ button{
     align-self: center;
 }
 
+#quick-facts-cs li, #quick-facts-cs h4{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 3%;
+
+}
 /*---------------------case studies---------------*/
 /*----------------tailspin-------------*/
 
@@ -1641,32 +1729,59 @@ button{
     border: 2px black solid;
     border-radius: 10px;
     padding: .5%;
-}
-
-#lg-top{
-    display: flex;
-    justify-content: space-around;
-    padding: 3% 0 3% 0;
-}
-
-#lg-top p{
-    font-family: 'Noto Sans', sans-serif;
-    width: 25%;
-    align-self: center;
-}
+} 
 
 #container-cs h4{
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
 }
 
+p{
+    font-family: 'Noto Sans', sans-serif;  
+}
+
+#fletcher-letter{
+    padding: 2% 0 2% 0;
+}
+
+#fletcher-social img{
+    object-fit: contain;
+}
+
+#fletcher-social{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: space-between;
+    padding-bottom: 3%;
+}
+
+.img-1{
+    margin-right: 5%;
+    width: 50%;
+}
+
+.img-1:hover{
+    opacity: 0.3;
+}
+
+.img-2:hover{
+    opacity: 0.3;
+}
+
+.img-2{
+    width:50%;
+}
+
+
 .cs-q{
     display: flex;
-    justify-content: space-between;
 }
 
 .cs-q img{
-    width: 60%;
+    width: 80%;
     padding: 2%;
     border: 2px solid black;
 }
@@ -1676,7 +1791,7 @@ button{
     padding: 1%;
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
-    width: 30%;
+    width: 20%;
     background-color: black;
     color: white;
     border: 1px solid black;
