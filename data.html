@@ -61,10 +61,9 @@
 </div>
 </div>
 
-<button class="tablink" onclick="openPage('Home', this, '#777')" id="defaultOpen">DATA</button>
-<button class="tablink" onclick="openPage('News', this, '#777')">CROSSTABULATIONS</button>
+<button class="tablink" onclick="openPage('News', this, '#777')" id="defaultOpen">CROSSTABULATIONS</button>
 <button class="tablink" onclick="openPage('Contact', this, '#777')">CONCLUSIONS</button>
-
+<button class="tablink" onclick="openPage('Home', this, '#777')" >RAW DATA</button>
 <!-- <button class="tablink" onclick="openPage('About', this, '#777')">About</button> -->
 
 <div id="Home" class="tabcontent">
@@ -76,7 +75,14 @@
 <h4>Question #23: What is your gender identity?</h4>
 <div class="">
 <img src="img/gender.png">
-<p>One of the later prompts in this survey was "what is your gender identity"? This question was left open-ended in an attempt to avoiding “othering” respondents by asking them to select an answer that did not truly represent their identity (e.g. responses for “what is your gender identity” are typically listed in a multiple choice format and include “male,” “female” and “other” with an option to fill in what “other” represents to that respondent.). By leaving the questions open-ended it allowed for respondents to identify themselves as who they are, not attempt to fit themselves into the mold of the survey.</p>
+<p>One of the later prompts in this survey was "what is your gender identity"? This question was left open-ended in an attempt to avoiding “othering” respondents by asking them to select an answer that did not truly represent their identity (e.g. responses for “what is your gender identity” are typically listed in a multiple choice format and include “male,” “female” and “other” with an option to fill in what “other” represents to that respondent.). By leaving the questions open-ended it allowed for respondents to identify themselves as who they are, not attempt to fit themselves into the mold of the survey.An appendix of entries can be found <button onclick="myFunction()">Here.</button></p>
+
+<script>
+function myFunction() {
+  alert("Genders not listed: Fluid, Polyqueer, Genderqueer/non-binary, Agender, Transfemme, Non-binary, Pansexual, Gender-fluid");
+}
+</script></p>
+
 </div>
 </div>
 
@@ -84,7 +90,13 @@
 <h4>Question #24: What is your race?</h4>
 <div class="">
 <img src="img/race.png">
-<p>The other prompt, “what is your race?”, was also left open ended. This was done in an attempt to avoid "othering" respondents as well but it was also done so that people could write in their race should the identify with more than one (i.e. Latinx and White). This left me with the deicion to categorized people as "mixed" if they identified with more than one race or to have a category for each response. Ultimtately, I decided on the former so that each section would be easier to read and there would not be slivers of sections that were near invisible. An appendix of entries can be found <a href="">here</a>. </p>
+<p>The other prompt, “what is your race?”, was also left open ended. This was done in an attempt to avoid "othering" respondents as well but it was also done so that people could write in their race should the identify with more than one (i.e. Latinx and White). This left me with the deicion to categorized people as "mixed" if they identified with more than one race or to have a category for each response. Ultimtately, I decided on the former so that each section would be easier to read and there would not be slivers of sections that were near invisible. An appendix of entries can be found <button onclick="myFunction()">Here.</button></p>
+
+<script>
+function myFunction() {
+  alert("Races not listed: White/Native American, Mixed northern European, Native American, Indian, Afro-Caribbean/Kalinago, Asian & Caucasian, Black & White, Hispanic/White, Jewish, Fluid, Biracial-Latinx, Black, white, African American and European, Black & Hispanic, Ashkenazi Jewish, Pacific Islander/Arctic Indigenous, Prefer not to say");
+}
+</script>
 </div>
 </div>
 </div>
